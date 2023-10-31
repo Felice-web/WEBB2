@@ -1,0 +1,390 @@
+.bakgrundsfarg { background-color: rgb(255, 255, 255);
+
+}
+
+/* = Innebär att när man hovrar över länken så blir den understryken. Kan även lägga på en färg*/ 
+a:hover {
+    text-decoration: underline;
+    color: rgb(234, 234, 234);
+    
+    
+}
+
+
+Body {
+    background-color:#ffffff;
+    font-family: Mulish,sans-serif;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+/*Georgia, 'Times New Roman', Times, serif;*/
+/* Body {
+    background-color: beige;
+    font-family:Verdana; 
+} */
+
+/*rubriker*/
+h1 {
+    font-family:Mulish,sans-serif;/*Arial, Helvetica, sans-serif;*/
+    font-weight: normal /*lighter;*/;
+    font-style: normal;
+    font-size:x-large;
+    
+}
+
+h2 {
+    font-family:  Mulish,sans-serif /*Arial, Helvetica, sans-serif*/;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*h2 rubrik i box i "våra tjänster"*/
+.h2 {
+    font-family:  Mulish,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    /*padding-left: 3px;
+    padding-top: 3px;
+    padding-right: 3px;*/
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: rgb(76, 96, 96);
+}
+
+/* h3 rubrik i box i "våra tjänster"*/
+.h3 {
+    font-family:  Mulish,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 3px;
+
+}
+
+h3 {
+    font-family: Mulish,sans-serif/*Arial, Helvetica, sans-serif*/;
+    font-size: large;
+    font-style: normal;
+}
+
+h4{
+    font-family: Mulish,sans-serif;
+    font-weight: normal;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+    
+}
+
+/*text under h1 större*/
+.textbigger {
+    font-size: large;
+    font-family: Mulish,sans-serif;
+    display:flex;
+
+}
+
+
+
+
+
+header{
+    
+   /* background-image: url("https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_640,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg");*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    background-color:#E7DFD7 /* #e1deda*/;
+    /*display:100px;*/
+    justify-content: center;
+    /*padding-left: 3vw;*/
+   
+    
+}
+
+/*lexbox för loggan i headern
+.flex-container-logga{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    margin:auto;
+}
+/*
+
+
+
+/*.header {
+    background-color: rgb(91, 71, 47);
+}*/
+
+
+/*avstånd från h1*/
+.sectionmargin {
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(97, 92, 92);
+    /*border-style: solid;*/
+    /*border-color: rgb(223, 232, 232);*/
+    border-width: 1px;
+    /*background-color:rgb(176, 176, 175) ;*/
+    margin: 0;
+    padding:  0;
+
+
+}
+
+.flex-container-meny {
+    flex-direction:row;
+    display: flex;
+    border-color: #000;
+    
+    
+    
+}
+
+.flex-container {
+    flex-direction:row;
+    display: flex;
+    border: 1px solid #d3cccc;
+    /*width: ;
+    height: ;*/
+    font-family: Mulish,sans-serif;
+
+
+    
+    
+}
+/*block med h1 + introtext + ev bild*/
+.flex-container-2 {
+    flex-direction:row;
+    display: flex;
+    border: 1px solid #d3cccc;
+    width: 100%;
+    height: 250px;
+    background-color: #d4c4b3;    
+    
+}
+
+/*flexbox "våra tjänster" bildruta*/
+.flex-container-bild {
+    width:500px ;
+    height: 250px;
+    border: 1px solid rgb(64, 49, 49);
+    
+
+}
+/*flexbox "våra tjänster" textruta under bildrutan ovanför(flex-container-bild*/
+.flex-container-text {
+    width: 500px;
+    height: 550px;
+    border: 1px solid rgb(64, 49, 49);
+    padding: 3px;
+    background-color:rgb(221, 214, 214);
+}
+
+/*flexbox "våra tjänster text i textrutan*/
+.flexbox-container-text1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: rgb(99, 111, 111);
+
+}
+/*flexbox formulär "boka tid"*/
+.flex-formulär{
+    border: none;
+    border-style: none;
+
+
+}
+/*färgruta runt formuläret på "boka tid"*/
+.container-formulär{
+    background-color: rgb(136, 122, 130);
+    
+
+
+}
+
+
+/*H1or som är alla sidor förutom start*/
+.h1-2 {
+    font-family:Mulish,sans-serif;/*Arial, Helvetica, sans-serif;*/
+    font-weight: normal /*lighter;*/;
+    font-style:initial;
+    font-size: 40px /*ev xx large*/;
+    color: #534d4d;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+/*Text under h1 som ligger i block "flex-container-2"*/
+.text-till-h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color:#4a4646;
+    font-family:Mulish,sans-serif;
+    font-style:initial;
+    font-size:larger;
+    border: inline;
+    
+
+}
+
+/*meny*/
+.menuitem {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(173, 163, 153);
+    margin: 2px;
+    
+
+}
+
+/*designen i flexboxen*/
+.item {
+    flex-grow: 1;
+    text-align: center;
+    background-color:#dfdbd5; /*#f8f5f0;*/
+    margin: 2px;
+    width: 50px;
+    height: 300px;
+    font-family: Mulish,sans-serif;
+    font-size:medium;
+    padding: 0,40px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    color: #000;
+    line-height: 26px;
+
+}
+/*c2a knapp startsida*/
+.c2a {
+    border-color: black;
+    text-decoration: solid;
+    background-color: none;
+    background-color:#bcb6b6 /*rgb(176, 176, 175) */;
+    color: #1e1d1d;
+    border-style: solid;
+    border-color: #555;
+    /*border: solid;*/
+    text-align: center;
+    width: auto;
+    height: 48px;
+    font-weight: bold;
+
+    
+}
+
+/*våra tjänster c2a knapp*/
+.c2atjanster {
+    border-color: black;
+    text-decoration: solid;
+    background-color: none;
+    background-color:#bcb6b6 /*rgb(176, 176, 175) */;
+    color: #1e1d1d;
+    border-style: solid;
+    border-color: #555;
+
+}
+
+/*rutor på våra tjänster*/
+.rutor {
+    background-color: rgb(198, 208, 208);
+
+}
+
+
+
+
+/*Längst ner*/
+.footer-flex{
+    background-color: rgb(154, 150, 150);
+    flex-basis: 30vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family:Mulish,sans-serif;
+    font-size: medium;
+    
+
+}
+
+/*boxar footer*/
+.left{
+    flex-grow: 1;
+    list-style-type: none;
+    font-family: Mulish,sans-serif;
+}
+.rest1{
+    flex-grow: 1;
+    list-style-type: none;
+    font-family: Mulish,sans-serif;
+    
+}
+
+
+
+.rest2{
+    flex-grow: 1;
+    list-style-type: none;
+    font-family: Mulish,sans-serif;
+}
+
+/*TEST FOOTER
+footer {
+    background-color:rgb(150, 144, 135);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-contact {
+    text-align: right;
+}
+*/
+
+
+
+
+
+
+
+
+

@@ -1,50 +1,153 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Vi hjälper dig att inreda din bostad.">
+    <meta name="keywords" content="inredning, inredningshjälp, styling">
+    <meta name="author" content="Felice Magnusson">
+
     <title>Inredning&Styling</title>
-    <meta name="description" content="inredningstyling"/>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 
 
 <body>
+    <header> <!--TOPP-HEADER, EV LOGGA-->
+        
+        <div class="header">
+        
+        <!--<div class="flex-container-logga">-->
+        
+        <img src="inredning & (3).png" width="100px" height="100px" alt="Foretagets inredning & stylings logga i form av ett hus">
+</div>
+        
+    </header>
 
-    <img src="BILDLÄNK" alt="En bild"/>
-
-    <nav> 
-        <a href="varatjanster.html">Våra tjänster</a>
-        <a href="bokahar.html">Boka här</a>
-        <a href="Tidigareprojekt.html">Tidigare projekt</a>
-        <a href="Kontaktaoss.html">Kontakta oss</a>
-    </nav>
-
-
-
-
-    <h1><b>Varmt välkommen till "inredning & styling AB”</b></h1>
-    <p>Vi på “Inredning & STyling" brinner för att skapa drömhem utefter dina visioner och mål, stora som små.  Därför erbjuder vi en rad olika tjänster som passar både privatpersoner och/som företag. Vi lyfter fram din bostads bästa egenskaper med rätt inredning och styling och hjälper dig hela vägen.</p> 
-        <section>
-           
-            <ul>
-                <li><b><h3>Homestyling inför försäljning</b></h3></li>
-                 <p>Här hjälper vi dig igenom hela processen för att du ska få en lyckad försäljning. Vi stylar din bostad och skapar ett inspirerande och attraktivt hem med rätt typ av inredning. <a href="Våra tjänster.html">Läs mer</a> </p>
-                <li><b><h3>Inredningshjälp</b></h3></li>
-                 <p>Känner du att du vill förnya ditt hem men vet inte hur du ska gå tillväga? Eller har du en drömbild du vill  förverkliga? Vi hjälper dig med allt ifrån att hitta rätt färgval till möblering. Vi skapar ett skräddarsytt inredningkoncepet som är anpassat efter din budget och önskemål. <a href="Våra tjänster.html">Läs mer</a></p>
-            </ul>
-        </section>
     
-    <h2>Vilka är vi?/Om inredning & Styling AB</h2>
+<nav><!--MENY-->
+  <div class="flex-container-meny">
+    <div class="menuitem"><a href="index.html">Start</a></div>
+    <div class="menuitem"><a href="varatjanster.html">Våra tjänster</a></div>
+    <div class="menuitem"><a href="bokatid.html">Boka här</a></div>
+    <div class="menuitem"><a href="tidigareprojekt.html">Tidigare projekt</a></div>
+    <div class="menuitem"> <a href="kontaktaoss.html">Kontakta oss</a></div>
+  </div>
+</nav>
+
+<section class="sectionmargin"> <!--INNEHÅLL-TOPP-->
+<div>
+    <h1>Varmt välkommen till Inredning & Styling AB</h1>
+</div>
+
+    
+    <p class="textbigger">Vi på Inredning & Styling brinner för att skapa drömhem utefter dina visioner och mål, stora som små.  Därför erbjuder vi en rad olika tjänster som passar både privatpersoner och företag. Vi lyfter fram din bostads bästa egenskaper med rätt inredning och styling och hjälper dig hela vägen.</p> 
+</section>
+        
+
+        <section class="sectionmargin"><!--FLEXBOX 1-TJÄNSTER bild(vänster)text (höger)-->
+
+         <div class="flex-container">
+            <div class="item">
+                <img src=https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_1076,h_729,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg width="100%" style="max-width: 100%" object-fit:cover alt= "En bild på ett stylat vardagsrum"/>
+            </div>
+            <div class="item">
+                <li><h3>HOMESTYLING INFÖR FÖRSÄLJNING</h3></li>
+                <br>
+                <p>Här hjälper vi dig igenom hela processen för att du ska få en lyckad försäljning. Vi stylar din bostad och skapar ett inspirerande och attraktivt hem med rätt typ av inredning. <br><br><a class="c2a" href="Varatjanster.html">LÄS MER></a></p></br></br></div>
+
+        </div>
+         </section>
+
+    <br></br>
+
+    
+        
+        <section><!--FLEXBOX 2-TJÄNSTER bild(vänster)text (höger)-->
+
+         <div class="flex-container">
+            <div class="item">
+                <img src="https://www.shutterstock.com/image-illustration/corporate-identity-stationery-mock-isolated-260nw-1924857899.jpg" width="100%" style="max-width: 100%" object-fit="cover" alt="En materialplansh för en inredningsstyling">
+            </div>
+            <div class="item">
+                <li><b><h3>INREDNINGSHJÄLP</b></h3></li>
+                <br>
+                <p>Känner du att du vill förnya ditt hem men vet inte hur du ska gå tillväga? Eller har du en drömbild du vill förverkliga? Vi hjälper dig med allt ifrån att hitta rätt färgval till möblering. Vi skapar ett skräddarsytt inredningkoncepet som är anpassat efter din budget och önskemål. <br><br><a class="c2a" href="Varatjanster.html">LÄS MER></a></p></br></br></div>
+
+        </div>
+         </section>
+
+<br>
+        
+    
+    <h2>Vilka är vi?</h2>
        <p>Inredning & styling består av ett sammansvetsat kreativt team som har en stor passion för inredning och har flera års erfarenhet inom inredningsbranschen. Företaget grundades 2018 och har sedan dess jobbat brett inom branschen med både privatpersoner och företag- stora som små projekt. Alla i teamet är certifierade inredare och stylister och brinner för att överträffa kundens förväntningar och tillsammans skapa magiska hem. För oss är ingenting omöjligt.</p>
+<br>
 
+    <p><i><b>Kontakta oss redan idag för att diskutera dina idéer och tillsammans gör dom till verklighet. <a href="bokatid.html">Boka tid</b></a></i></p>
+<br>
 
-    <p><i>Kontakta oss redan idag för att diskutera dina idéer och tillsammans gör dom till verklighet. <a href="Boka här.html">Boka tid</a></i></p>
+<footer class="footer-flex"><!--FOOTER-BAS-->
+   <!-- <section class="footer"><strong>Kontakt</strong>-->
+    
 
+ 
+        
+        <ul class="left">
+            <div><h4><b>Kontakt:</b></h4> 
+            <li>Telefon: 070-6826230</li>
+            <li>E-post: inredningstyling@hotmail.com</li>
+        </ul>
+    </div>
 
+    <br>
+    <ul class="rest1">
+    <div><h4><b>Sociala medier</b></h4></div>
+    
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Linkedin</li>
+        <li>Pinterest</li>
+        <li>Youtube></li>
 
+</ul>
 
+    <br>
+    <div class="rest2">höger</div>
 
+    </section>
+</footer>
+
+<!--TEST FOOTER
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo.png" alt="Företagslogo">
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Hem</a></li>
+                <li><a href="#">Om oss</a></li>
+                <li><a href="#">Tjänster</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <p>Kontakta oss:</p>
+            <p>Email: info@example.com</p>
+            <p>Telefon: 123-456-789</p>
+        </div>
+    </div>
+</footer>
+-->
+
+<!--GLÖM EJ JAVASCRIPT-LÄNK-->
 </body>       
 
 </html>
+
+<!--GLÖM EJ HREF=CSS/STYLE.CSS. DETTA INNEBÄR ATT MAN SÄGER ATT STYLE CSS HÖR IHOP MED MIN INDEX DOKUMENTET-->

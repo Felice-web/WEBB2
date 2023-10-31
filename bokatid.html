@@ -1,23 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Vi hjälper dig att inreda din bostad.">
+        <meta name="keywords" content="inredning, inredningshjälp, styling">
+        <meta name="author" content="Felice Magnusson">
+
+
         <title>Boka tid</title>
+
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
     </head>
     
     
     <body>
-         <img src="BILDLÄNK" alt="En bild"/> + ALLTTEXT
+
+        <header> <!--TOPP-HEADER, EV LOGGA-->
+            <div>
+                <class="header">
+            </div>
+        </header>
+
+
+
+         <img src="https://www.byrum.se/wp-content/uploads/2021/11/visningsbild-badrum.jpg" With="300" height="200" alt="En bild"/> 
     
-         <nav> 
+     <p>
+         <nav> <!--MENY-->
+            <a href="index.html">Start</a>
             <a href="varatjanster.html">Våra tjänster</a>
             <a href="bokahar.html">Boka här</a>
-            <a href="Tidigareprojekt.html">Tidigare projekt</a>
-            <a href="Kontaktaoss.html">Kontakta oss</a>
+            <a href="tidigareprojekt.html">Tidigare projekt</a>
+            <a href="kontaktaoss.html">Kontakta oss</a>
         </nav>
+    </p>
 
+<section><!--topp, h1 + text-->
     <h1>Boka tid</h1>
         <p>Boka idag så sätter vi igång med ditt inredningsprojekt.</p>
+</section>
+
+<section class="flex-formulär"><!--boka tid formulär-->
+    <div class="container-formulär">
+        <form action="inredningstyling.se" method="post">
+            <table border="1">
+                <!--<tr>
+                    <th>Frågor</th>
+                    <th>Fyll i nedan</th>
+                </tr>-->
+
+
+                <tr>
+                    <td><label for="name.för skärmläsare">Namn</label></td>
+                    <td><input id="namn" name="thenamne" type="text" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="adress.för skärmläsare">Adress</label></td>
+                    <td><input id="namn" name="thenamne" type="text" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email.för skärmläsare">E-mail</label></td>
+                    <td><input id="email" name="thenamne" type="text" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="mobilnummer.för skärmläsare">Mobilnummer</label></td>
+                    <td><input id="mobilnummer" name="thenamne" type="text" size="50"></td>
+                </tr>
+
+
+                <tr>
+                    
+                        <form>
+                            <td>
+                                <label for="html">Privat</label><br>
+                                <label for="css">Företag</label>
+            
+                            </td> 
+                            <td> 
+                            <input type="radio" id="html" name="fav_language" value="HTML"><br>
+                        <input type="radio" id="css" name="fav_language" value="css"><br>
+                        </form>
+                        </td>
+                        </tr>
+
+
+                <td>
+                <form>
+
+                    <label for="html">Homestyling inför försäljning</label>
+                    <br>
+                    <label for="css">Inredningshjälp</label>
+                </td>
+                <td>
+                    <imput type="radio" id="html" name="fav_language" value="HTML"><br>
+                        <input type="radio" id="css" name="fav_language" value="css"><br>
+                        <input type="radio" id="javascript" name="fav_language" value="javascript"> 
+
+                    </td>
+                </input>
+                </form>    
+                
+
+                <tr>
+                    <td><label for="question.för skärmläsare">Beskriv mer utförligt hur vi kan hjälpa dig</label></td>
+                    <td><textarea id="Question" name="mytext" rows="4" cols="50"> </textarea></td>
+                </tr> 
+
+                <tr>
+                    <td><label for="kontaktmobil.för skärmläsare">Jag vill gärna bli kontaktad via telefon</label></td>
+                    <td><input type="checkbox" id="kontaktmobil" name="kontaktmobil"></td>
+                </tr> 
+
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="skicka">
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+        </div>
+</section>
+
+<br>
+
+<footer class="flex-container"><!--FOOTER-BAS-->
+    <section class="footer"><strong>Kontakt</strong>
+    </section>
 
 
 
@@ -26,5 +141,11 @@
 
 
 
-</html>
 
+
+
+
+
+
+
+</html>
