@@ -35,7 +35,7 @@
 
 
 
-         <img src="https://www.byrum.se/wp-content/uploads/2021/11/visningsbild-badrum.jpg" With="300" height="200" alt="En bild"/> 
+        <!--<img src="https://www.byrum.se/wp-content/uploads/2021/11/visningsbild-badrum.jpg" With="300" height="200" alt="En bild"/> -->
     
      <p>
          <nav> <!--MENY-->
@@ -47,15 +47,17 @@
         </nav>
     </p>
 
+    <div class="margin">
 <section><!--topp, h1 + text-->
     <h1>Boka tid</h1>
         <p>Boka idag så sätter vi igång med ditt inredningsprojekt.</p>
 </section>
 
+
 <section class="flex-formulär"><!--boka tid formulär-->
     <div class="container-formulär">
         <form action="inredningstyling.se" method="post">
-            <table border="1">
+            <table>
                 <!--<tr>
                     <th>Frågor</th>
                     <th>Fyll i nedan</th>
@@ -83,38 +85,50 @@
                 </tr>
 
 
-                <tr>
-                    
-                        <form>
-                            <td>
-                                <label for="html">Privat</label><br>
-                                <label for="css">Företag</label>
-            
-                            </td> 
-                            <td> 
-                            <input type="radio" id="html" name="fav_language" value="HTML"><br>
-                        <input type="radio" id="css" name="fav_language" value="css"><br>
-                        </form>
-                        </td>
-                        </tr>
-
-
-                <td>
-                <form>
-
-                    <label for="html">Homestyling inför försäljning</label>
-                    <br>
-                    <label for="css">Inredningshjälp</label>
-                </td>
-                <td>
-                    <imput type="radio" id="html" name="fav_language" value="HTML"><br>
-                        <input type="radio" id="css" name="fav_language" value="css"><br>
-                        <input type="radio" id="javascript" name="fav_language" value="javascript"> 
-
-                    </td>
-                </input>
-                </form>    
                 
+                    
+                
+
+
+
+                <form>
+                    <tr>
+                       <td><label for="html">Privat</label></td>
+                       <td><input type="radio" id="html" name="fav_language" value="HTML"></td>
+                    </tr> 
+                    
+                    <tr> 
+                    
+                       <td><label for="css">Företag</label></td>
+                       <td><input type="radio" id="css" name="fav_language" value="css"></td>
+                
+                    </tr>
+        </form>
+
+
+
+
+        <form>
+            <tr>
+
+                <td><label for="html">Homestyling inför försäljning</label></td>
+                <td><input type="radio" id="html" name="fav_language" value="HTML"></td><br>
+            
+                
+            </tr>
+            <tr>
+                <td><label for="css">Inredningshjälp</label></td>
+                <td><input type="radio" id="css" name="fav_language" value="css"></td><br>
+                <!--<td><input type="radio" id="javascript" name="fav_language" value="javascript"></td>--> 
+
+            </tr>
+        
+        </form>   
+
+            
+
+
+
 
                 <tr>
                     <td><label for="question.för skärmläsare">Beskriv mer utförligt hur vi kan hjälpa dig</label></td>
@@ -125,10 +139,14 @@
                     <td><label for="kontaktmobil.för skärmläsare">Jag vill gärna bli kontaktad via telefon</label></td>
                     <td><input type="checkbox" id="kontaktmobil" name="kontaktmobil"></td>
                 </tr> 
+        <br>
 
                 <tr>
+                    
                     <td colspan="2">
-                        <input type="button" value="skicka">
+                        
+                        <input class="c2a-skicka" type="button" value="skicka">
+                        
                     </td>
                 </tr>
                 
@@ -139,9 +157,41 @@
 
 <br>
 
-<footer class="flex-container"><!--FOOTER-BAS-->
-    <section class="footer"><strong>Kontakt</strong>
-    </section>
+
+    <footer class="footer-flex"><!--FOOTER-BAS-->
+        <!-- <section class="footer"><strong>Kontakt</strong>-->
+         
+     
+      
+             
+             <ul class="left">
+                 <div><h4><b>Kontakt:</b></h4> 
+                 <li>Telefon: 070-6826230</li>
+                 <li>E-post: inredningstyling@hotmail.com</li>
+             </ul>
+         </div>
+     
+         <br>
+         <ul class="rest1">
+         <div><h4><b>Sociala medier</b></h4></div>
+         
+             <li><img src="fb.png" width="20">Facebook-gör en flexbpx för varje ikon</li>
+             <li>Instagram</li>
+             <li>Linkedin</li>
+             <li>Pinterest</li>
+             <li>Youtube></li>
+     
+     </ul>
+     <ul class="rest2">
+         <div><h4><b>Nyhetsbrev</b></h4></div>
+         <li></li>
+         <li></li>
+     </ul>
+         
+     
+         </section>
+     </footer>
+     
 
 
 
