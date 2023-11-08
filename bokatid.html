@@ -25,44 +25,64 @@
     </head>
     
     
-    <body>
+    <body onload="buildMenu()">
+<!--------------------TOPP-HEADER + LOGGA------------------->
+        <!--<header> 
+        
+            <div class="header">
+                <img src="logotyp.png" width="90px" height="90px" alt="Foretagets inredning & stylings logga i form av ett hus">
+                
+            
+            <div class="flex-container-logga"> 
+            </div>   
+        </header>-->
 
-        <header> <!--TOPP-HEADER, EV LOGGA-->
-            <div>
-                <class="header">
+        <header class="ny-header">
+            <div class="logga">
+                <img src="logga1.png" width="90px" height="90px"
+                alt="Foretagets inredning & stylings logga i form av ett hus"> 
             </div>
+    
+            <div class="sökruta">
+                <input type="text" placeholder="Sök">
+            </div>
+    
+    
         </header>
+    
+        
+    <!-------------------------------MENY---------------------------------------------------->
+
+<nav>
+
+    <div id="meny" class="flex-container-meny">
+    
+    </div>
+  </nav>
+    
+
+
+
+    <section class="flex-container-2"> <!--INNEHÅLL-TOPP rubrik-->
+        <h1 class="h1-2">Boka tid</h1>
+          
+    </section>
+    
+    <section> <!--INNEHÅLL-TOPP-->
+        <div class="text-intro">
+            <h2 class="text-intro-h2"><b>Boka homestyling eller inredningskoncept</b></h2>
+             
+            <p class="text-intro-p">Fyll i formuläret och boka redan idag så sätter vi igång med ditt inredningsprojekt.</p> 
+        </div>
 
 
 
         <!--<img src="https://www.byrum.se/wp-content/uploads/2021/11/visningsbild-badrum.jpg" With="300" height="200" alt="En bild"/> -->
-    
-     <p>
-         <nav> <!--MENY-->
-            <a href="index.html">Start</a>
-            <a href="varatjanster.html">Våra tjänster</a>
-            <a href="bokahar.html">Boka här</a>
-            <a href="tidigareprojekt.html">Tidigare projekt</a>
-            <a href="kontaktaoss.html">Kontakta oss</a>
-        </nav>
-    </p>
-
-    <div class="margin">
-<section><!--topp, h1 + text-->
-    <h1>Boka tid</h1>
-        <p>Boka idag så sätter vi igång med ditt inredningsprojekt.</p>
-</section>
-
 
 <section class="flex-formulär"><!--boka tid formulär-->
-    <div class="container-formulär">
+    <div class="container-formulär-bakgrund">
         <form action="inredningstyling.se" method="post">
             <table>
-                <!--<tr>
-                    <th>Frågor</th>
-                    <th>Fyll i nedan</th>
-                </tr>-->
-
 
                 <tr>
                     <td><label for="name.för skärmläsare">Namn</label></td>
@@ -75,7 +95,7 @@
                 </tr>
 
                 <tr>
-                    <td><label for="email.för skärmläsare">E-mail</label></td>
+                    <td><label for="email.för skärmläsare">E-post</label></td>
                     <td><input id="email" name="thenamne" type="text" size="50"></td>
                 </tr>
 
@@ -83,12 +103,6 @@
                     <td><label for="mobilnummer.för skärmläsare">Mobilnummer</label></td>
                     <td><input id="mobilnummer" name="thenamne" type="text" size="50"></td>
                 </tr>
-
-
-                
-                    
-                
-
 
 
                 <form>
@@ -103,10 +117,7 @@
                        <td><input type="radio" id="css" name="fav_language" value="css"></td>
                 
                     </tr>
-        </form>
-
-
-
+                </form>
 
         <form>
             <tr>
@@ -125,10 +136,6 @@
         
         </form>   
 
-            
-
-
-
 
                 <tr>
                     <td><label for="question.för skärmläsare">Beskriv mer utförligt hur vi kan hjälpa dig</label></td>
@@ -145,7 +152,7 @@
                     
                     <td colspan="2">
                         
-                        <input class="c2a-skicka" type="button" value="skicka">
+                        <input class="c2a-skicka" type="button" value="Skicka">
                         
                     </td>
                 </tr>
@@ -155,56 +162,43 @@
         </div>
 </section>
 
-<br>
+<br><br><br><br><br><br>
+
+<!-------------------------------------FOOTER----------------------------------------->
+
+<footer class="footer-flex">
+
+    <ul class="footer-column-1">
+        <b>Kontakt</b> 
+        <br><br>
+    <li>Telefon: 070-6826230</li>
+    <li>E-post: inredningstyling@hotmail.com</li>
+        <br><br><br>
+        <li>© 2023 Inredning & Styling</li>
+    </ul>
+
+<ul class="footer-column-2">
+    <b>Följ oss</b>
+<br><br>
+    <li><img src="facebook.png" width="20px" height="20px"></li>
+    <li><img src="instagram.png" width="24px" height="24px"></li>
+    <li><img src="pinterest.png" width="22px" height="22px"></li>
+    <li><img src="youtube.png" width="24px" height="24px"></li>
+</ul>
+
+ <ul class="footer-column-3">
+
+</ul>
+
+</footer>
 
 
-    <footer class="footer-flex"><!--FOOTER-BAS-->
-        <!-- <section class="footer"><strong>Kontakt</strong>-->
-         
-     
-      
-             
-             <ul class="left">
-                 <div><h4><b>Kontakt:</b></h4> 
-                 <li>Telefon: 070-6826230</li>
-                 <li>E-post: inredningstyling@hotmail.com</li>
-             </ul>
-         </div>
-     
-         <br>
-         <ul class="rest1">
-         <div><h4><b>Sociala medier</b></h4></div>
-         
-             <li><img src="fb.png" width="20">Facebook-gör en flexbpx för varje ikon</li>
-             <li>Instagram</li>
-             <li>Linkedin</li>
-             <li>Pinterest</li>
-             <li>Youtube></li>
-     
-     </ul>
-     <ul class="rest2">
-         <div><h4><b>Nyhetsbrev</b></h4></div>
-         <li></li>
-         <li></li>
-     </ul>
-         
-     
-         </section>
-     </footer>
+
      
 
+
+<script src="script/script.js"></script>
 
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
 </html>

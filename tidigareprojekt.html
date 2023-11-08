@@ -25,56 +25,165 @@
 </head>
 
 
-<body>
+<body onload="buildMenu()">
+    <!--------------------TOPP-HEADER + LOGGA------------------->
+    <!--<header> 
+        
+        <div class="header">
+            <img src="logotyp.png" width="90px" height="90px" alt="Foretagets inredning & stylings logga i form av ett hus">
+            
+        
+        <div class="flex-container-logga"> 
+        </div>   
+    </header>-->
 
-    <header> <!--TOPP-HEADER, EV LOGGA-->
-        <div>
-            <class="header">
+    <header class="ny-header">
+        <div class="logga">
+            <img src="logga1.png" width="90px" height="90px"
+            alt="Foretagets inredning & stylings logga i form av ett hus"> 
         </div>
+
+        <div class="sökruta">
+            <input type="text" placeholder="Sök">
+        </div>
+
+
     </header>
 
-
-    <!--MENY-->
-        <nav> 
-            <a href="index.html">Start</a>
-           <a href="varatjanster.html">Våra tjänster</a>
-           <a href="bokatid.html">Boka här</a>
-           <a href="tidigareprojekt.html">Tidigare projekt</a>
-           <a href="kontaktaoss.html">Kontakta oss</a>
-       </nav>
-        
     
-<section class="sectionmargin"> <!--topp text,h1-->
-    <h1>Inredningsprojekt</h1>
-    <p>Här kan du se några av våra tidigare inredningsprojekt hos våra kunder.</p>
+<!-------------------------------MENY---------------------------------------------------->
+
+<nav>
+    
+    <div id="meny" class="flex-container-meny">
+    </div>
+  </nav>
+
+
+
+
+<section class="flex-container-2"> <!--INNEHÅLL-TOPP rubrik-->
+    <h1 class="h1-2">Tidigare projekt</h1>
+      
+</section>
+<!-----------------------------INNEHÅLL-TOPP------------------------------------------------------>
+<section> 
+    <div class="text-intro">
+        <h2 class="text-intro-h2"><b>Inredningsprojekt</b></h2>
+         
+        <p class="text-intro-p">Låt dig inspireras av några av våra tidigare inredningsprojekt hos våra kunder.</p> 
+    </div>
 </section>
 
-<section> <!--1a projektet-->
-<div>
-   <h3 class="sectionmargin">Tometebogatan 9</h3>
-   <br>
-   <p>I denna rymliga luftiga vindsvånig har vi gjort en <i>Homestyling</i><a href="varatjanster.html">Våra tjänster</a>. Här låg fokuset på att skapa en helhetskänsla i hela bostaden.</p>
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/exKFNYqmE14?si=XJDZDbCH-dic5QUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   
-</div> 
+
+<!------------------------NYA F-BOXAR------------------------------------------>
+
+<section>
+    <div class="flex-projekt">
+        <div class="box1-projekt">
+            <iframe width="100%" height="315" style="border-radius: 8px;" src="https://www.youtube.com/embed/exKFNYqmE14?si=XJDZDbCH-dic5QUL" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+
+        </div>
+        <div class="box2-projekt">
+            <h3>Tomtebogatan 9</h3>
+            <p>I denna rymliga luftiga vindsvåning har vi gjort en <b><u><a href="varatjanster.html">Homestyling</a></u></b>. 
+                <br><br>Här låg fokuset på att skapa en helhetskänsla i hela bostaden.</p>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section><!--2a projektet-->
-<div>
-    <h3 class="sectionmargin">Tomtebogatan 20</H3>
-        <br>
-    <p>Denna kund ville ha <i>Inredningshjälp</i><a href="varatjanster.html">Våra tjänster</a> för att få till en mysigt barnrum. Här låg fokuset på att jobba in kontraster då rummets bas var väldigt vit och kal. Resultatet blev ett lekfullt barnrum med ett varmt djup. </p>
-    <img src="https://vintagefabriken.se/wp-content/uploads/Styling-Vintagefabriken-studio-10.jpg" With="300" alt="En bild på barnrum"/>
+<section>
+    <div class="flex-projekt">
+        <div class="box1-projekt">
+            <img src="https://vintagefabriken.se/wp-content/uploads/Styling-Vintagefabriken-studio-10.jpg" width="100%" style="border-radius: 8px;" alt="Barnrum">
 
+        </div>
+        <div class="box2-projekt">
+            <h3>Tomtebogatan 20</h3>
+            <p>Här hjälpte vi en kund med att ta fram ett nytt <b><u><a href="varatjanster.html">inredningskoncept</a></u></b> för att få till ett mysigt barnrum. 
+                <br><br>Vårt fokus låg på att jobba in kontraster, då rummet tidigare var väldigt kalt. 
+                Resultatet blev ett lekfullt barnrum med ett varmt djup och finurliga detaljer.</p>
+
+        </div>
+
+    </div>
+
+</section>
+<br><br><br><br><br>
+<!----------------------------Content ruta- till wordpress------------------------------------------------------------>
+<section>
+<div class="text-intro">
+    <h2 class="text-intro-h2"><b>Inredare tipsar/Tips från våra inredare/Inredningstips från våra inredare/</b></h2>
 </div>
 </section>
 
-<footer class="flex-container"><!--FOOTER-BAS-->
-    <section class="footer"><strong>Kontakt</strong>
-    </section>
+<!--<section>
+    <div class="flex-content">
+        <div class="box-bild-content">
+        <img src="content_jul.png" width="50%" alt="Ett juldekorerat vardagsrum">
+        </div>
+
+        <div class="box-text-content">
+            <p> Eftersom julen närmar sig så har våra inredare har spanat in julens största inredningstrender för 2023.</p>
+            <a href="WORDPRESS">Läs om trenderna här</a>
+
+        </div>
 
 
 
+    </div>
+</section>-->
+
+<section>
+    <div class="flex-content">
+        <div class="content-box">
+            <p>Missa inte julens stora inrednngstrender. Våra inredare har listat de 3 störta trenderna att hålla koll på.</p>
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-------------------------------------FOOTER----------------------------------------->
+<br><br><br><br><br>
+<footer class="footer-flex">
+
+    <ul class="footer-column-1">
+        <b>Kontakt</b> 
+        <br><br>
+    <li>Telefon: 070-6826230</li>
+    <li>E-post: inredningstyling@hotmail.com</li>
+        <br><br><br>
+        <li>© 2023 Inredning & Styling</li>
+    </ul>
+
+<ul class="footer-column-2">
+    <b>Följ oss</b>
+<br><br>
+    <li><img src="facebook.png" width="20px" height="20px"></li>
+    <li><img src="instagram.png" width="24px" height="24px"></li>
+    <li><img src="pinterest.png" width="22px" height="22px"></li>
+    <li><img src="youtube.png" width="24px" height="24px"></li>
+</ul>
+
+ <ul class="footer-column-3">
+
+</ul>
+
+</footer>
+
+
+<script src="script/script.js"></script>
 </body>
 </html>

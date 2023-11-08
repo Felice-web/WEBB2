@@ -26,74 +26,112 @@
 </head>
 
 
-<body>
+<body onload="buildMenu()">
 
-    <header> <!--TOPP-HEADER, EV LOGGA-->
-        <div>
-            <class="header">
+    <!--------------------TOPP-HEADER + LOGGA------------------->
+    <!--<header> 
+        
+        <div class="header">
+            <img src="logotyp.png" width="90px" height="90px" alt="Inredning & Stylings logotyp">  
+        </div>   
+    </header>-->
+
+    <header class="ny-header">
+        <div class="logga">
+            <img src="logga1.png" width="90px" height="90px"
+            alt="Foretagets inredning & stylings logga i form av ett hus"> 
         </div>
+
+        <div class="sökruta">
+            <input type="text" placeholder="Sök">
+        </div>
+
     </header>
 
+<!-------------------------------MENY---------------------------------------------------->
 
-     
+<nav>
+    
+    <div id="meny" class="flex-container-meny">
 
-     
-    <p>
-     <nav> <!--MENY-->
-        <a href="index.html">Start</a>
-        <a href="varatjanster.html">Våra tjänster</a>
-        <a href="bokahar.html">Boka här</a>
-        <a href="tidigareprojekt.html">Tidigare projekt</a>
-        <a href="kontaktaoss.html">Kontakta oss</a>
-    </nav>
-    </p>
-     
-    <div class="margin">
-    <section> <!--topp h1 text-->
-    <div>
-    <H1 class="bakgrundsfarg">Kontakta oss</H1>
-       <p>Här ser du hela vårt team som jobbar på Inredning & Styling och deras kontaktuppgifter. Tveka inte att höra av dig vid funderingar, så svarar vi så fort vi kan.</p>
-    </section>
+    </div>
+  </nav>
 
-        <section> <!--1a kontaktperson-->
-            <img src="https://www.esny.se/app/uploads/2021/09/Ma%CC%88klare_Andrea_samlingssida-1024x1024.jpg"  With="300" height="200" alt="En glad inredningsstylist vid namn Anna"/>
-            
-               <p><b>Andrea Brodin</b></p>
-               <p>Inredningsstylist & grundare till Inredning & Styling</p>
-               <p><href="mailto:anna@inredningstyling.se"></href></p>
 
-               </mailto:anna>@inredningstyling.se"</href></p>
-        </section>
+<!-----------------------------------INNEHÅLL-TOPP rubrik----------------------------------------------------->
 
-        <section><!--2a kontaktperson-->
-            <img src="https://www.esny.se/app/uploads/2019/07/L1860264-e1566906138687-1024x1024.jpg" With="300" height="200" alt="En inredningsstylist vid namn Niklas"/>
-              
-                <p><b>Niklas Berntzon</b></p>
-                <p>Inredningsstylist</p>
-                <p><href="mailto:niklas@inredningstyling.se"</href></p>
-            </mailto:niklas>@inredningstyling.se"</href></p>
-        </section>
+<section class="flex-container-2"> 
+    <h1 class="h1-2">Kontakta oss</h1>
+      
+</section>
 
-        <section> <!--3e kontaktperson-->
-            <img src="https://www.esny.se/app/uploads/2019/08/Denise-Edlind-Halvkropp-e1571056423890-1024x1024.jpg" With="300" height="200" alt="En äldre inredningsstylist vid namn Denise"/>
-            
-                <p><b>Denise Edlund</b></p>
-                <p>Inredningsstylist</p>
-                <p><a href="mailto:denise@inredningstyling.se">denise@inredningstyling.se</a></p>
-           
+<section>
+    <div class="text-intro">
+        <h2 class="text-intro-h2"><b>Teamet på Inredning & Styling</b></h2></p> 
+    </div>
+</section>
 
-        </section>
+<br>
+<!-------------------------------------------------------------------------------------->
+
+<section>
+    <div class="flex-container-kontakt">
+        <div class="column">
+            <div class="box-bild-kontakt">
+                <img src="https://www.esny.se/app/uploads/2021/09/Ma%CC%88klare_Andrea_samlingssida-1024x1024.jpg" 
+                width="100%" style="border-radius: 10px;" alt="Inredningsstylist Andrea Brodin">
+            </div>
+
+            <div class="box-text-kontakt">
+                <p><b>Andrea Brodin</b></p>
+                <!--<p>Inredningsstylist & grundare</p>-->
+                <p><a href="mailto:andrea@inredningstyling.se">andrea@inredningstyling.se</a></p>
+            </div>
         </div>
-       
-        <div>
-        <form action="inredningstyling.se" method="post"> <!--kontaktformulär-->
-            <table border="1">
-                <tr>
-                    <th>Frågor</th>
-                    <th>Fyll i nedan</th>
-                </tr>
 
+    <div class="column">
+        <div class="box-bild-kontakt">
+            <img src="https://www.esny.se/app/uploads/2019/07/L1860264-e1566906138687-1024x1024.jpg"
+             width="100%" style="border-radius: 10px;" alt="Inredningsstylist Niklas Berntzon">
+        </div>
 
+        <div class="box-text-kontakt">
+            <p><b>Niklas Berntzon</b></p>
+            <!--<p>Inredningsstylist</p>-->
+            <p><a href="mailto:niklas@inredningstyling.se">niklas@inredningstyling.se</a></p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="box-bild-kontakt">
+            <img src="https://www.esny.se/app/uploads/2019/08/Denise-Edlind-Halvkropp-e1571056423890-1024x1024.jpg" 
+            width="100%" style="border-radius: 10px;" alt="Inredningsstylist Denise Edlund">
+        </div>
+
+        <div class="box-text-kontakt">
+            <p><b>Denise Edlund</b></p>
+            <!--<p>Inredningsstylist</p>-->
+            <p><a href="mailto:denise@inredningstyling.se">denise@inredningstyling.se</a></p>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="text-intro">
+        <h2 class="text-intro-h2"><b>Kontaktformulär</b></h2>
+         
+        <p class="text-intro-p">Tveka inte att höra av dig vid funderingar, så svarar vi så fort vi kan.</p> 
+    </div>
+</section>
+<!----------------------------------------------------------------------------------------->
+     
+<section class="flex-formulär"><!--boka tid formulär-->
+    <div class="container-formulär-bakgrund">
+        <form action="inredningstyling.se" method="post">
+            <table>
+                
                 <tr>
                     <td><label for="name.för skärmläsare">Namn</label></td>
                     <td><input id="namn" name="thenamne" type="text" size="50"></td>
@@ -105,7 +143,7 @@
                 </tr>
 
                 <tr>
-                    <td><label for="email.för skärmläsare">Email</label></td>
+                    <td><label for="email.för skärmläsare">E-post</label></td>
                     <td><input id="email" name="thenamne" type="text" size="50"></td>
                 </tr>
 
@@ -114,21 +152,37 @@
                     <td><input id="mobilnummer" name="thenamne" type="text" size="50"></td>
                 </tr>
 
-                <tr>
-                    <td>
-                
-                        <input type="radio" id="html" name="fav_language" value="HTML"><br>
-                        <input type="radio" id="css" name="fav_language" value="css"><br>
-                        <input type="radio" id="javascript" name="fav_language" value="javascript"> 
-                    </td>    
-                
-                
-                    <td>
-                        <label for="html">Privat</label><br>
-                        <label for="css">Företag</label>
+
+                <form>
+                    <tr>
+                       <td><label for="html">Privat</label></td>
+                       <td><input type="radio" id="html" name="fav_language" value="HTML"></td>
+                    </tr> 
                     
-                    </td>    
-                </tr>
+                    <tr> 
+                    
+                       <td><label for="css">Företag</label></td>
+                       <td><input type="radio" id="css" name="fav_language" value="css"></td>
+                
+                    </tr>
+                </form>
+
+        <!--<form>
+            <tr>
+
+                <td><label for="html">Homestyling inför försäljning</label></td>
+                <td><input type="radio" id="html" name="fav_language" value="HTML"></td><br>
+            
+                
+            </tr>
+            <tr>
+                <td><label for="css">Inredningshjälp</label></td>
+                <td><input type="radio" id="css" name="fav_language" value="css"></td><br>
+                <!--<td><input type="radio" id="javascript" name="fav_language" value="javascript"></td>
+
+            </tr>
+        
+        </form> -->  
 
 
                 <tr>
@@ -137,33 +191,140 @@
                 </tr> 
 
                 <tr>
-                    <td><label for="nyhetsbrev.för skärmläsare">Jag vill gärna ha nyhetsbrev</label></td>
-                    <td><input type="checkbox" id="nyhetsbrev" name="nyhetsbrev"></td>
-                </tr> 
-
-                <tr>
                     <td><label for="kontaktmobil.för skärmläsare">Jag vill gärna bli kontaktad via telefon</label></td>
                     <td><input type="checkbox" id="kontaktmobil" name="kontaktmobil"></td>
                 </tr> 
 
                 <tr>
+                    <td><label for="nyhetsbrev.för skärmläsare">Jag vill gärna ha nyhetsbrev</label></td>
+                    <td><input type="checkbox" id="nyhetsbrev" name="nyhetsbrev"></td>
+                </tr> 
+        <br>
+
+                <tr>
+                    
                     <td colspan="2">
-                        <input type="button" value="skicka">
+                        
+                        <input class="c2a-skicka" type="button" value="skicka">
+                        
                     </td>
                 </tr>
                 
             </table>
         </form>
         </div>
+</section>
 
+<br><br><br><br><br>
 
+      <!-------------------------------------FOOTER----------------------------------------->
 
+<footer class="footer-flex">
 
+    <ul class="footer-column-1">
+        <b>Kontakt</b> 
+        <br><br>
+    <li>Telefon: 070-6826230</li>
+    <li>E-post: inredningstyling@hotmail.com</li>
+        <br><br><br>
+        <li>© 2023 Inredning & Styling</li>
+    </ul>
 
+<ul class="footer-column-2">
+    <b>Följ oss</b>
+<br><br>
+    <li><img src="facebook.png" width="20px" height="20px"></li>
+    <li><img src="instagram.png" width="24px" height="24px"></li>
+    <li><img src="pinterest.png" width="22px" height="22px"></li>
+    <li><img src="youtube.png" width="24px" height="24px"></li>
+</ul>
 
+ <ul class="footer-column-3">
 
+</ul>
+
+</footer>
+
+<script src="script/script.js"></script>
 </body>
-
-
 </html>
 
+<!-----------------------------------------GAMLA FORMULÄRET--------------------------------------->
+<!--<section class="flex-formulär">
+    <div class="container-formulär-bakgrund">
+       <form action="inredningstyling.se" method="post"> 
+           <table border="1">
+               <tr>
+                   <th>Frågor</th>
+                   <th>Fyll i nedan</th>
+               </tr>
+
+
+               <tr>
+                   <td><label for="name.för skärmläsare">Namn</label></td>
+                   <td><input id="namn" name="thenamne" type="text" size="50"></td>
+               </tr>
+
+               <tr>
+                   <td><label for="adress.för skärmläsare">Adress</label></td>
+                   <td><input id="namn" name="thenamne" type="text" size="50"></td>
+               </tr>
+           
+
+               <tr>
+                   <td><label for="email.för skärmläsare">E-post</label></td>
+                   <td><input id="email" name="thenamne" type="text" size="50"></td>
+               </tr>
+
+               <tr>
+                   <td><label for="mobilnummer.för skärmläsare">Mobilnummer</label></td>
+                   <td><input id="mobilnummer" name="thenamne" type="text" size="50"></td>
+               </tr>
+
+              
+               <form>
+                   <tr>
+                      <td><label for="html">Privat</label></td>
+                      <td><input type="radio" id="html" name="fav_language" value="HTML"></td>
+                   </tr> 
+                   
+                   <tr> 
+                   
+                      <td><label for="css">Företag</label></td>
+                      <td><input type="radio" id="css" name="fav_language" value="css"></td>
+               
+                   </tr>
+               </form>
+
+           
+
+
+               <tr>
+                   <td><label for="question.för skärmläsare">Skriv din fråga</label></td>
+                   <td><textarea id="Question" name="mytext" rows="4" cols="50"> </textarea></td>
+               </tr> 
+
+               <tr>
+                   <td><label for="nyhetsbrev.för skärmläsare">Jag vill gärna ha nyhetsbrev</label></td>
+                   <td><input type="checkbox" id="nyhetsbrev" name="nyhetsbrev"></td>
+               </tr> 
+
+               <tr>
+                   <td><label for="kontaktmobil.för skärmläsare">Jag vill gärna bli kontaktad via telefon</label></td>
+                   <td><input type="checkbox" id="kontaktmobil" name="kontaktmobil"></td>
+               </tr> 
+
+               <tr>
+                   <td colspan="2">
+                       <input type="button" value="skicka">
+                   </td>
+               </tr>
+               
+           </table>
+       </form>
+       </div>
+</section>
+<br><br><br><br>
+-->
+
+<!---------------------------------------------------------------------------------->

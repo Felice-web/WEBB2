@@ -19,189 +19,202 @@
     <meta name="keywords" content="inredning, inredningshjälp, styling">
     <meta name="author" content="Felice Magnusson">
 
-    <title>Inredning&Styling</title>
+    <title>Inredning & Styling</title>
 
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 
+<body onload="buildMenu()">
 
 
+<!-------------------------------TOPP-HEADER + LOGGA------------------------------------->
 
-<body>
-
-    
-    <header> <!--------------------TOPP-HEADER, EV LOGGA------------------->
+    <!--<header>
         
         <div class="header">
-            
-        
-        <!--<div class="flex-container-logga">-->
-        
-        <!--<img src="inredning & (3).png" width="100px" height="100px" alt="Foretagets inredning & stylings logga i form av ett hus">-->
-          
+            <div class="flex-logga"></div>
+            <img src="logotyp.png" width="90px" height="90px"
+            alt="Foretagets inredning & stylings logga i form av ett hus"> 
+        </div>   
+
+    </header>-->
+
+    <header class="ny-header">
+        <div class="logga">
+            <img src="logga1.png" width="90px" height="90px"
+            alt="Foretagets inredning & stylings logga i form av ett hus"> 
         </div>
-        
+
+        <div class="sökruta">
+            <input type="text" placeholder="Sök">
+        </div>
+
+
     </header>
 
-    <section class="bildheader" img src="https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_640,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg"><!--Bild som hör ihop med header-->
 
+<!-------------------------------MENY---------------------------------------------------->
 
+<nav>
+  <div id="meny" class="flex-container-meny"> 
+  
+</div>
 
-
-    </section>
-
-    
-<nav><!-------MENY--------->
-  <div class="flex-container-meny">
-    <div class="menuitem"><a href="index.html">Hem</a></div>
-    <div class="menuitem"><a href="varatjanster.html">Våra tjänster</a></div>
-    <div class="menuitem"><a href="bokatid.html">Boka här</a></div>
-    <div class="menuitem"><a href="tidigareprojekt.html">Tidigare projekt</a></div>
-    <div class="menuitem"> <a href="kontaktaoss.html">Kontakta oss</a></div>
-  </div>
 </nav>
 
-<section class="flex-container-2"> <!--INNEHÅLL-TOPP rubrik-->
-    <!--<img src="kok.png">-->
-    <div class="sectionmargin">
 
-    <h1 class="h1-2"><b>Inredning & Styling</b></h1>
-    
-    <p class="text-till-h1">Vi gördin vision till verklighet</p>
-    </div>
+
+<!--<div class="menuitem"><a href="index.html">Hem</a></div>
+    <div class="menuitem"><a href="varatjanster.html">Tjänster</a></div>
+    <div class="menuitem"><a href="bokatid.html">Boka tid</a></div>
+    <div class="menuitem"><a href="tidigareprojekt.html">Tidigare uppdrag</a></div>
+    <div class="menuitem"> <a href="kontaktaoss.html">Kontakta oss</a></div>
+    <div class="menuitem"> <a href="omoss.html">Om oss</a></div>   -->
+<!-----------------------------------INNEHÅLL-TOPP---------------------------------------->
+
+<section class="flex-container-2">
+    <h1 class="h1-2">INREDNING & STYLING</h1>     
 </section>
 
-
-
-
-
-
-
-
-
-<section class="sectionmargin"> <!--INNEHÅLL-TOPP-->
+<section>
     <div class="text-intro">
-        <h1 class="text-intro-h1">Vi gör din vision till verklighet</h1>
+        <h2 class="text-intro-h2"><b>Vi gör din vision till verklighet</b></h2>
          
         <p class="text-intro-p">Vi på Inredning & Styling brinner för att skapa drömhem utefter dina visioner och mål, stora som små. 
              Därför erbjuder vi en rad olika tjänster som passar både privatpersoner och företag.
               Vi lyfter fram din bostads bästa egenskaper med rätt inredning och styling och hjälper dig hela vägen.</p> 
+
     </div>
 </section>
-
-<br><br><br><br>
-
-
-
-
-<section>    
-        <!--<div class="sectionmargin"></div>  FLEXBOX 1-TJÄNSTER bild(vänster)text (höger)-->
-
-            <div class="flex-container">
-        
-               <div class="item-left">
-                   <img src=https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_1076,h_729,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg 
-                   width="100%" alt= "En bild på ett stylat vardagsrum"/>
-               </div>
-               <div class="item-right">
-                <br><br>
-                   <h3 class="h3-box">HOMESTYLING INFÖR FÖRSÄLJNING</h3>
-                   
-                   <p>Här hjälper vi dig igenom hela processen för att du ska få en lyckad försäljning. 
-                    Vi stylar din bostad och skapar ett inspirerande och attraktivt hem med rätt typ av inredning. <br><br><br><a class="c2a" href="Varatjanster.html">LÄS MER></a></p><br><br></br></div>
-   
-           </div>
-            </section>
-   
-       <br></br>
-   
-       
-           
-           <section><!--FLEXBOX 2-TJÄNSTER bild(vänster)text (höger)-->
-   
-            <div class="flex-container">
-               <div class="item-left">
-                   <img src="brun_board.png" width="100%" alt="Moodboard">
-                   <!--https://res.cloudinary.com/dgg9enyjv/image/upload/q_auto/f_auto/w_1600/v1613041357/Marbodal/Gallery/Moodboards/marbodal-jordn%C3%A4ra-moodboard-tall2"--> 
-                   <!--"https://www.shutterstock.com/image-illustration/corporate-identity-stationery-mock-isolated-260nw-1924857899.jpg">--> 
-               </div>
-               <div class="item-right">
-                <br><br>
-                   <h3 class="h3-box">INREDNINGSHJÄLP</h3>
-                   
-                   <p>Känner du att du vill förnya ditt hem men vet inte hur du ska gå tillväga? Eller har du en drömbild du vill förverkliga? Vi hjälper dig med allt ifrån att hitta rätt färgval till möblering. Vi skapar ett skräddarsytt inredningkoncepet som är anpassat efter din budget och önskemål. <br><br><br><a class="c2a" href="Varatjanster.html">LÄS MER></a></p></br><br></br></div>
-   
-           </div>
-            </section>
-        
-
-        <!--<img src="https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_1076,h_729,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg" width="100%" height="20%" alt= "En bild på ett stylat vardagsrum"/>-->
   
+<!-------------------------------------FLEXBOXAR LIGGANDE---------------------------------------->
 
-</section>
-       
-
-<!--TEST NYA FLEXBOXAR-->
 <section>
-    <div class="flex-container-boxar">
-        <div class="box-left">
-            <img src="https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_1076,h_729,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg"
-             width=100% alt= "En bild på ett stylat vardagsrum"/>
-        </div>
 
-        <div class="box-right">
-
-        </div>
-
-
-
+<div class="flex-c">
+    <div class="box1">
+        <img src="https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_1076,h_729,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg " 
+        width="100%" alt="Ett stylat vardagsrum med modern minimalistisk inredning">
     </div>
+
+    <div class="box2">
+        <h3 class="h3-box">HOMESTYLING INFÖR FÖRSÄLJNING<br></h3>
+        <p>Här hjälper vi dig igenom hela processen för att du ska få en lyckad försäljning. 
+            Vi stylar din bostad och skapar ett inspirerande och attraktivt hem med rätt typ av inredning.</p>
+            <br>
+            <a class="c2a" href="bokatid.html"><b>Boka</b></a>
+            <!--<a class="c2a" href="Varatjanster.html"><b>Läs mer</b></a>-->
+    </div>
+</div>
+
+<div class="flex-c">
+    <div class="box1">
+        <img src="brun_board.png" width="100%" alt="Moodboard">
+    </div>
+
+    <div class="box2">
+        <h3 class="h3-box">INREDNINGSHJÄLP</h3>
+        <p>Känner du att du vill förnya ditt hem men vet inte hur du ska gå tillväga? 
+            Eller har du en drömbild du vill förverkliga? Vi hjälper dig med allt ifrån att hitta rätt färgval till möblering. 
+            Vi skapar ett skräddarsytt inredningkoncepet som är anpassat efter din budget och önskemål.</p>
+            <br>
+            <a class="c2a" href="bokatid.html"><b>Boka</b></a>
+            <!--<a class="c2a" href="Varatjanster.html"><b>Läs mer</b></a>-->
+    </div>
+</div>
+
 </section>
 
 
+<!--<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
-<br><br>
 
+<section>
+    <div class="flex-b">
+        <div class=box-1-ny>
+            <img src="https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_1076,h_729,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg " 
+        width="100%" alt="Ett stylat vardagsrum med modern minimalistisk inredning">
+            
+        </div>
 
-<footer class="footer-flex"><!--FOOTER-BAS-->
-   <!-- <section class="footer"><strong>Kontakt</strong>-->
     
 
- 
-        
-        <ul class="left">
-            <div><h4><b>Kontakt:</b></h4> 
-            <li>Telefon: 070-6826230</li>
-            <br>
-            <li>E-post: inredningstyling@hotmail.com</li>
-        </ul>
+    
+        <div class="box-2-ny">
+            <p>Text</p>
+        </div>
+
     </div>
 
-    <br>
-    <ul class="rest1">
-    <div><h4><b>Sociala medier</b></h4></div>
-    
-        <li><img src="fb.png" width="20">Facebook-gör en flexbpx för varje ikon</li>
-        <li>Instagram</li>
-        <li>Linkedin</li>
-        <li>Pinterest</li>
-        <li>Youtube></li>
-
-</ul>
-<ul class="rest2">
-    <div><h4><b>Nyhetsbrev</b></h4></div>
-    <li></li>
-    <li></li>
-</ul>
+    <br><br><br><br><br><br>    
     
 
-    </section>
+    <div class="flex-b">
+        <div class=box-1-ny>
+            <img src="brun_board.png" width="100%">
+            
+        </div>
+
+    
+
+    
+        <div class="box-2-ny">
+            <p>Text</p>
+        </div>
+
+    </div>
+
+</section>-->
+
+<!------------------------------------c2a "boka här"------Eventuellt lägga till detta----------------------------------->
+
+
+
+    
+    
+<!--<section>
+     <p><b>Boka ett konsultationsmöte redan idag så diskuterar vi hur just dina idéer kan bli till verklighet. 
+        <u><a href="bokatid.html">Boka här!</b></u></a></p>
+<br>
+    </div>
+</section>-->
+
+<!-------------------------------------FOOTER----------------------------------------->
+
+<footer class="footer-flex">
+
+        <ul class="footer-column-1">
+            <b>Kontakt</b> 
+            <br><br>
+        <li>Telefon: 070-6826230</li>                     <!--FRÅGA:CLASS-underline-footer. Överstryket vid hovring över nr-->
+        <li>E-post: inredningstyling@hotmail.com</li>
+            <br><br><br>
+            <li>© 2023 Inredning & Styling</li>
+        </ul>
+
+    <ul class="footer-column-2">
+        <b>Följ oss</b>
+    <br><br>
+        <li><img src="facebook.png" width="20px" height="20px"></li>
+        <li><img src="instagram.png" width="24px" height="24px"></li>
+        <li><img src="pinterest.png" width="22px" height="22px"></li>
+        <li><img src="youtube.png" width="24px" height="24px"></li>
+    </ul>
+
+     <ul class="footer-column-3">
+   
+    </ul>
+
 </footer>
 
 
+<script src="script/script.js"></script>
 
-<!--GLÖM EJ JAVASCRIPT-LÄNK-->
+
+<!--------------------GLÖM EJ JAVASCRIPT-LÄNK-------------------->
+
 </body>       
 
 </html>
-

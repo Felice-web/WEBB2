@@ -1,45 +1,15 @@
-.bakgrundsfarg { background-color: rgb(255, 255, 255);
-
-}
-
 /* = Innebär att när man hovrar över länken så blir den understryken. Kan även lägga på en färg*/ 
 a:hover {
     text-decoration: underline;
-    color: rgb(234, 234, 234);
-    
-    
+    color: rgb(6, 5, 5);
 }
 
 
 Body {
-    background-color:#ffffff;
+    background-color:#f8f2f2;/* alternativt helt vitt*/
     font-family: Mulish,sans-serif;
     /*padding: 20px;*/
-    margin: 0px;
-    
-}
-
-/*Georgia, 'Times New Roman', Times, serif;*/
-/* Body {
-    background-color: beige;
-    font-family:Verdana; 
-} */
-
-/*rubriker*/
-h1 {
-    font-family:Mulish,sans-serif;/*Arial, Helvetica, sans-serif;*/
-    font-weight: normal /*lighter;*/;
-    font-style: normal;
-    font-size:x-large;
-    
-}
-
-h2 {
-    font-family:  Mulish,sans-serif /*Arial, Helvetica, sans-serif*/;
-    font-weight: normal;
-    font-style: normal;
-    
-    
+    margin: 0px;   
 }
 
 /*h2 rubrik i box i "våra tjänster"*/
@@ -62,7 +32,6 @@ h2 {
     font-weight: normal;
     font-style: normal;
     margin-bottom: 3px;
-
 }
 
 h3 {
@@ -76,8 +45,6 @@ h4{
     font-weight: normal;
     padding-bottom: 5px;
     padding-top: 5px;
-    
-    
 }
 
 /*text under h1 större*/
@@ -86,98 +53,79 @@ h4{
     font-family: Mulish,sans-serif;
     display:flex;
     margin:20px;
-
 }
 
 .margin {
     margin:20px;
 }
 
+/*________________HEADER__________________________*/
 
-
-
-header{
+/*header{
     width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
     padding: 15px;
-    background-color: rgb(243, 247, 250);
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}*/
+
+
+
+.ny-header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+
 }
 
+.logga{
+    flex:1px;
+    position: left;
+    padding-left: 5px;
+    
+}
 
+.sökruta{
+    flex:1px;
+    text-align: right;  
+    padding-right: 10px;
+}
 
-
+/*_______________TEXT-ingress, nedanför header_____________________*/
 
 .text-intro{
 
     padding-left: 50px;
     padding-right: 50px;
     color: #1e1d1d;
-    position: absolute;
     text-align: center;
-    margin-bottom: 50px;
+    line-height: 1.5;
 }
 
-.text-intro-h1{
-    font-size: x-large;
+.text-intro-h2{
+    font-size:xx-large;
     font-family:Mulish,sans-serif;
-    padding-top: 20px;
+    padding-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
 }
 
 .text-intro-p{
     font-size: large;
-    padding-bottom: 90px;
+    padding-bottom: 20px;
     font-family:Mulish,sans-serif;
     text-align: left;
-    /*margin lr padding*/
-    
-    
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
 }
-
-
-
-
-   /* background-image: url("https://static.wixstatic.com/media/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg/v1/fill/w_640,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d2f5fd_8bff281684b04a9583d19cc98ad5d5c3~mv2.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0px;
-    width: 100%;
-    height: 100px;
-    background-color:#ffffff /* #e1deda*/;
-    /*display:100px;*/
-    /*justify-content: center;/*
-    /*padding-left: 3vw;*//*
-   
-}
-
-
-
-
-.bildheader {
-    background-position: cover;
-
-}
-
-/*lexbox för loggan i headern
-.flex-container-logga{
-    width: 40px;
-    height: 40px;
-    justify-content: center;
-    margin:auto;
-}
-/*
-
-
-
-/*.header {
-    background-color: rgb(91, 71, 47);
-}*/
-
-
-
-
-
 
 /*avstånd från h1*/
 .sectionmargin {
@@ -193,16 +141,33 @@ a{
     border-width: 1px;
     /*background-color:rgb(176, 176, 175) ;*/
     margin: 0;
-    padding:  0;
-
+    padding: 0;
 }
 
+/*___________MENY_________________*/
 .flex-container-meny {
     flex-direction:row;
     display: flex;
-    border-color: #000;
-
+    width: 100%;
 }
+
+/*meny*/
+.menuitem {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(173, 163, 153);
+    color:rgb(137, 128, 121);/*#534d4d;*//*rgb(122, 134, 134);*/
+    margin: 1px;
+    font-family: Mulish,sans-serif;
+    border-color: 1px #534d4d;/*#9e9494;*/
+    border-style: solid;
+    
+}
+
+
+
+/*_________________________________________*/
 
 .flex-container {
     flex-direction:row;
@@ -219,8 +184,7 @@ a{
     padding-right: 50px;
     padding-left:50px;
     justify-content: space-between;
-    
- 
+    margin-top: 40px;
 }
 
 .flex-container-innehåll{
@@ -233,25 +197,22 @@ a{
 .flex-container-img{
     width: 100%;
     display: block;
-    
-    
 }
-.flex-container-h3{
+
+.flex-container-h3{ 
     text-align: center;
     font-weight:bold;
 }
 
-
-/*block med h1 + introtext + ev bild*/
+/*block med h1 + introtext-ingressen*/
 .flex-container-2 {
-    flex-direction:row;
+    /*flex-direction:row;*/
     display: flex;
     border: 1px solid #d3cccc;
     width: 100%;
-    height: 250px;
-    background-color: #d4c4b3;   
-    
-    
+    height: 150px;
+    background-color: #b7aca2d7; 
+    text-align: center;
 }
 
 /*flexbox "våra tjänster" bildruta*/
@@ -260,8 +221,8 @@ a{
     height: 250px;
     border: 1px solid rgb(64, 49, 49);
     margin-left: 50px;
-
 }
+
 /*flexbox "våra tjänster" textruta under bildrutan ovanför(flex-container-bild*/
 .flex-container-text {
     width: 500px;
@@ -271,10 +232,6 @@ a{
     background-color:rgb(239, 216, 216);
     flex-direction: row;
     border-radius: 5px;
-    
-    
-    
-    
 }
 
 /*flexbox "våra tjänster" text i textrutan*/
@@ -283,10 +240,7 @@ a{
     margin-right: 20px;
     margin-bottom: 20px;
     color: rgb(99, 111, 111);
-    
-
 }
-
 
 /*flexbox formulär "boka tid"*/
 .flex-formulär{
@@ -296,33 +250,33 @@ a{
     font-size: 15px;
     font-weight: bold;
     color: #2b2020;
-    
-
-
 }
+
 /*färgruta runt formuläret på "boka tid"*/
-.container-formulär{
-    background-color: rgb(182, 177, 180);
+.container-formulär-bakgrund{
+    background-color:#dfdbd5;
     font-family:Mulish,sans-serif;
-    padding-bottom: 20px;
-
+    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-left: 350px;
 }
-
 
 /*H1or som är alla sidor förutom start*/
 .h1-2 {
-    font-family:Mulish,sans-serif;/*Arial, Helvetica, sans-serif;*/
+    font-family:Mulish,sans-serif; /*Verdana, Geneva, Tahoma, sans-serif*//*Mulish,sans-serif;*/
     font-weight: normal /*lighter;*/;
     font-style:initial;
-    font-size: 40px /*ev xx large*/;
+    font-size: 42px /*ev xx large*/;
     color: #534d4d;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-    
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*Text under h1 som ligger i block "flex-container-2"*/
+/*Text under h1 som ligger i block "flex-container-2". Alltså p-text till den korllfärgade boxen i headern*/
 .text-till-h1 {
     margin-left: 20px;
     margin-right: 20px;
@@ -331,20 +285,6 @@ a{
     font-style:initial;
     font-size:larger;
     border: inline;
-    
-}
-
-/*meny*/
-.menuitem {
-    flex-grow: 1;
-    padding: 10px;
-    
-    text-align: center;
-    background-color: rgb(173, 163, 153);
-    margin: 2px;
-    font-family: Mulish,sans-serif;
-    
-
 }
 
 /*designen i flexboxen*/
@@ -354,14 +294,9 @@ a{
     background-color:#dfdbd5; /*#f8f5f0;*/
     margin: 2px;
     font-family: Mulish,sans-serif;
-    
     /*padding:10px;*/
-    
     /*color: #000;*/
     /*line-height: 26px;*/
-    
-
-    
 }
 
 .item-right{
@@ -373,76 +308,87 @@ a{
     font-size:large;
     padding:10px;
     color: #2b2020;
-    
 }
 
-.h3-box{
-    font-size: larger;
+.h3-box{                             /*---------FIX EFTER REDOVISNINGEN-se anteckningar!!!!---------*/
+    font-size: normal;
     font-family: Mulish,sans-serif;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 4px;/*LÄGG IN MER PADDING EFTER REDOVISNING. Mer padding,font style*/
+    padding-right: 60px;
+    text-align: left;
 }
-
-
 
 /*c2a knapp startsida*/
 .c2a {
-    border-color: black;
     text-decoration: solid;
-    background-color: none;
-    background-color:#bcb6b6 /*rgb(176, 176, 175) */;
-    color: #1e1d1d;
+    background-color: #D4C4B3;/*#bcb6b6;*/
+    color: #5c472e /*#1e1d1d*/;
     border-style: solid;
-    border-color: #555;
-    /*border: solid;*/
+    border-color:#d5bca1 /*#555*/; 
     text-align: center;
-    width: auto;
-    height: 48px;
-    font-weight: bold;
-    /*padding-top: 10px;
+    /*width: auto;
+    height: 48px;*/
+    font-weight:normal;/*bold*/
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    margin:40px;*/
-
+    margin-top: 20px;
+    border-radius: 8px;
     
 }
 
 /*våra tjänster c2a knapp*/
 .c2atjanster {
-    border-color: black;
+    border-color:#818b82  /*#4C5351*/;
     text-decoration: solid;
-    background-color: none;
-    background-color:#bcb6b6 /*rgb(176, 176, 175) */;
-    color: #1e1d1d;
+    background-color:#a9b5aa/*#7d8a87*//*:#8ca294*/ /*rgb(176, 176, 175) */;
+    color: rgb(45, 48, 44);
     border-style: solid;
-    border-color: #555;
-
+    text-align: center;
+    padding-left: 14px;/*20*/
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 38%;
+    margin-top: 50px;
 }
 
 .c2a-skicka {
-
-    border-style: bolder;
-    width: 90px;
-    height: 50px;
-    border-radius: 10px;
+    /*border-style: solid; /*bolder
+    border-color:#1e1d1d;*/
+    /*width: 90px;
+    height: 50px;*/
+    border-style:solid;
+    border-radius: 8px;
     font-family:Mulish,sans-serif;
-    color: rgb(111, 139, 96);
+    font-size:normal;
+    font-weight: bold;
+    color: rgb(45, 48, 44);
+    margin-top: 20px;
+    background-color: #a9b5aa/*#818b82/*#D4C4B3*/;
+    border-color: #818b82 /*#a9b5aa*/;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 14px;
+    padding-right: 15px;
+    
+    
 }
 
 /*rutor på våra tjänster*/
 .rutor {
     background-color: rgb(198, 208, 208);
-
 }
 
-
-
-
-/*Längst ner*/
+/*-------------Längst ner---------------------------*/
 .footer-flex{
-    background-color: rgb(154, 150, 150);
+    background-color: rgb(173, 163, 153);
     flex-basis: 30vw;
     padding: 20px;
     display: flex;
@@ -453,32 +399,35 @@ a{
 }
 
 /*boxar footer*/
-.left{
+.footer-column-1{
     flex-grow: 1;
     list-style-type: none;
     font-family: Mulish,sans-serif;
+    padding-top: 10px;
 }
-.rest1{
+
+.footer-column-2{
+    flex-grow: 1;
+    list-style-type: none;
+    font-family: Mulish,sans-serif;   
+    padding-top: 10px; 
+}
+
+.footer-column-3{
     flex-grow: 1;
     list-style-type: none;
     font-family: Mulish,sans-serif;
-    
+    padding-top: 10px;
 }
 
 
 
-.rest2{
-    flex-grow: 1;
-    list-style-type: none;
-    font-family: Mulish,sans-serif;
-}
+/*---------------till formulär--------------*/
 
-/*till formulär(tabell)*/
 input{
     height: 20px;
     border-radius: 5px;
     border-color: #f8f6f6;
-
 }
 
 textarea {
@@ -486,99 +435,328 @@ textarea {
     width: 360px;
     border-color: #dfdbd5;
     resize: none;
-
 }
 
+/*_____________________NYA BOXAR PÅ "startsida"________________________________________*/
 
-/*TEST NYA FLEXBOXAR STARTSIDA*/
-
-.flex-container-boxar{
-    flex-direction:row;
+.flex-c{
     display: flex;
-
-
+    flex-direction: row;
 }
 
-.box-left{
+.box1{
+    flex:1;
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background-color:#dfdbd5;
+    position: relative;
+    border-color: #2b2020;
+}
+
+.box2{
+    flex:1;
+    flex-grow: 1;
+    text-align: left;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color:#dfdbd5;
+    font-family: Mulish,sans-serif;
+    font-size:normal;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #2b2020;
+    /*border-radius: 10px; INNEBÄR RUNDADE KANTER*/
+    border-color: #2b2020;
+}
+
+
+/*.box1{
+    flex:1;
+    flex-grow: 1;
+    border: 2px solid pink;
+    margin-left: 50px;
+    text-align: center;
+    background-color:#dfdbd5;
+    font-family: Mulish,sans-serif;
+}*/
+
+/*----------NYA BOXAR BLÅ RAM------*/
+/*.flex-b{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1-ny{
+    flex: 1;
+    flex-grow: 1;
+    border:2px solid blue;
+    background-color:#dfdbd5;
+    
+    
+}
+
+.box-2-ny{
+    flex:1;
+    flex-grow: 1;
+    border:2px solid blue;
+    text-align: center;
+    background-color:#dfdbd5;
+    
+
+}*/
+
+/*-----------------------START- FLEXBOX COLUMN "VÅRA TJÄNSTER"----------------------------------------------------*/
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-bild{
+    flex:1;
+    flex-grow: 1;
+    width: 580px;
+    border: 1px solid rgb(33, 29, 30);
+    margin-left: 50px;
+    text-align: center;
+    background-color:#dfdbd5;
+    font-family: Mulish,sans-serif;
+}
+
+.box-text{
+    flex:1;
     flex-grow: 1;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    
-    background-color: aqua;
-
-}
-
-.box-right{
-    flex-grow: 1;
+    border: 1px solid rgb(33, 29, 30);
+    margin-left: 50px;
     text-align: center;
-    display: flex;
-    font-display: flex;
-    background-color: aqua;
-    justify-content: center;
-    
+    background-color:#dfdbd5;
+    font-family: Mulish,sans-serif;
+    font-size:large;
+    color: #2b2020;
+    padding-top: 50px;
+    width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
 }
 
+/*---------TVÅ BOXAR BREDVID VARANDRA I TVÅ KOLUMNER--------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*TEST FOOTER
-footer {
-    background-color:rgb(150, 144, 135);
-    color: #fff;
-    padding: 20px 0;
-}
-
-.footer-content {
-    width: 80%;
-    margin: 0 auto;
+.flex-container88{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.footer-logo img {
-    width: 100px;
-    height: auto;
+.column {
+    flex: 1;
+    padding: 10px;
 }
 
-.footer-links ul {
-    list-style: none;
+.box-bild1 {
+        
+        flex: 1 ;
+        flex-grow: 1;
+        width: 580px;
+        margin-left: 70px;
 }
 
-.footer-links li {
+.box-text1{
+    flex:1;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 70px;
+    background-color:#dfdbd5;
+    font-family: Mulish,sans-serif;
+    font-size:large;
+    color: #2b2020;
+    padding-top: 20px;
+    width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+/*_________________________________________________________________*/
+
+.flex-projekt{
+    display: flex;
+    flex-direction: row;
+}
+
+.box1-projekt{
+    flex:1;
+    flex-grow: 1;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.box2-projekt{
+    flex:1;
+    flex-grow: 1;
+    margin-right: 80px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color:#dfdbd5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+/*______________FLEXBOXAR-KONTAKTA OSS, 3 kolumner__________________________________________________*/ 
+
+.flex-container-kontakt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.box-bild-kontakt {
+        flex: 1;
+        flex-grow: 1;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.box-text-kontakt{
+    flex:1;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
+    background-color:#dfdbd5;
+    font-family: Mulish,sans-serif;
+    font-size:large;
+    color: #2b2020;
+    padding-top: 20px;
+    width: 240px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+/*___________________OM OSS_____________________________________*/
+.flex-container-omoss{
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.footer-links a {
-    text-decoration: none;
-    color: #fff;
+.column-omoss{
+    flex: 1;
+    padding: 10px;
 }
 
-.footer-contact {
-    text-align: right;
+.box-bild-omoss{
+    flex: 1;
+    flex-grow: 1;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
-*/
 
+.box-text-omoss{
+    flex:1;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
+    /*background-color:#dfdbd5;*/
+    font-family: Playfair Display, serif/*Mulish,sans-serif*/;
+    font-size:larger;
+    color: #2b2020;
+    padding-top: 20px;
+    width: 240px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
 
+}
+.rubrik-text-box{
+    font-family: Playfair Display, serif;
+    font-size:x-large;
+}
+/*-----recensioner-------*/
+.flex-container-omoss{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 
+.column-omoss{
+    flex: 1;
+    padding: 10px;
+}
 
+.box-text-omoss-recension{
+    flex:1;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
+    background-color:#dfdbd5;
+    font-family:Mulish,sans-serif;
+    font-size:large;
+    color: #2b2020;
+    padding-top: 20px;
+    width: 240px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+/*-----------------------WORDPRESS-länkning, contentbox på "tidigare projekt"-----------------------------------------------------------*/
+.flex-content{
+    display: flex;
+}
 
+/*.box-bild-content{
+    flex:1;
+    flex-grow: 1;
+    margin-left:40px;
+    
+}
 
+.box-text-content{
+    flex:1;
+    flex-grow: 1;
 
+}*/
 
+.content-box{
+    flex:1;
+    flex-grow: 1;
+    border-color: rgb(14, 47, 14);
+    background-color: #405342;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight:normal;
+    font-family:Mulish,sans-serif;
 
+}
