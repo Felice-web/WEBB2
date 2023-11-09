@@ -6,10 +6,10 @@ function buildMenu()
 
 {
     var links = [
-        ["Startsidan", "index.html"], 
+        ["Hem", "index.html"], 
         ["Tjänster", "varatjanster.html"],
         ["Boka tid", "bokatid.html"], 
-        ["Tidigare uppdrag", "tidigareprojekt.html"],
+        ["Tidigare projekt", "tidigareprojekt.html"],
         ["Kontakta oss", "kontaktaoss.html"],   
         ["Om oss", "omoss.html"]
     

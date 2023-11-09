@@ -74,12 +74,12 @@ h4{
 
 
 .ny-header{
-    width: 100%;
+    width: 99%;
     height: 80px;
     display: flex;
     padding: 15px;
     background-color: rgb(255, 255, 255);
-    margin-top: 10px;
+    
 
 }
 
@@ -90,11 +90,25 @@ h4{
     
 }
 
-.sökruta{
+.sokruta{
     flex:1px;
     text-align: right;  
     padding-right: 10px;
+
+    
 }
+
+.sokrutainput{
+    border-color: #393939;
+    border-radius: 4px;
+    border:1,5px solid;
+    text-shadow: none;
+    
+    padding-bottom: 2px;
+    margin-top: 30px;
+    height: 30px;
+}
+
 
 /*_______________TEXT-ingress, nedanför header_____________________*/
 
@@ -389,6 +403,7 @@ a{
 /*-------------Längst ner---------------------------*/
 .footer-flex{
     background-color: rgb(173, 163, 153);
+    color: #2d2828;
     flex-basis: 30vw;
     padding: 20px;
     display: flex;
@@ -435,6 +450,12 @@ textarea {
     width: 360px;
     border-color: #dfdbd5;
     resize: none;
+}
+
+.tabelltjanster{
+    border: 20px solid;
+    border-radius: 5px;
+    border-color: aqua;
 }
 
 /*_____________________NYA BOXAR PÅ "startsida"________________________________________*/
@@ -578,7 +599,7 @@ textarea {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 /*_________________________________________________________________*/
@@ -607,7 +628,7 @@ textarea {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
-    border-radius: 10px;
+    border-radius: 4px;
     line-height: 1.5;
 }
 
@@ -746,17 +767,37 @@ textarea {
 .content-box{
     flex:1;
     flex-grow: 1;
-    border-color: rgb(14, 47, 14);
-    background-color: #405342;
-    color: #ffffff;
-    border-radius: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
+    border-color: 1px rgb(14, 47, 14); 
+    border-style: solid;
+    background-color: #dfdbd5;
+    color: #41483b;
+    border-radius: 1px;
+    margin-left: 75px;
+    margin-right: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     font-size: larger;
     font-weight:normal;
     font-family:Mulish,sans-serif;
+
+}
+
+.c2a-content{
+    text-decoration: solid;
+    background-color: #7d8779;/*#bcb6b6;*/
+    color: #273223 /*#1e1d1d*/;
+    border-style: solid;
+    border-color:#273223 /*#555*/; 
+    text-align: center;
+    /*width: auto;
+    height: 48px;*/
+    font-weight:normal;/*bold*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
 
 }
