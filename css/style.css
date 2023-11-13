@@ -421,6 +421,9 @@ a{
     font-family: Mulish,sans-serif;
     padding-top: 10px;
 }
+.kontakt{
+    align-items: left;
+}
 
 .footer-column-2{
     flex-grow: 1;
