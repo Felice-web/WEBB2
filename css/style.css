@@ -24,6 +24,7 @@ Body {
     margin-top: 20px;
     margin-right: 20px;
     color: rgb(76, 96, 96);
+    
 }
 
 /* h3 rubrik i box i "våra tjänster"*/
@@ -325,10 +326,10 @@ a{
 }
 
 .h3-box{                             /*---------FIX EFTER REDOVISNINGEN-se anteckningar!!!!---------*/
-    font-size: normal;
+    font-size: large /*normal*/;
     font-family: Mulish,sans-serif;
-    padding-top: 10px;
-    padding-bottom: 4px;/*LÄGG IN MER PADDING EFTER REDOVISNING. Mer padding,font style*/
+    padding-top: 20px/*10*/px;
+    padding-bottom: 10/*8*/px;/*LÄGG IN MER PADDING EFTER REDOVISNING. Mer padding,font style*/
     padding-right: 60px;
     text-align: left;
 }
@@ -380,7 +381,7 @@ a{
     font-family:Mulish,sans-serif;
     font-size:normal;
     font-weight: bold;
-    color: rgb(45, 48, 44);
+    color: rgb(15, 15, 15);/*rgb(45, 48, 44);*/
     margin-top: 20px;
     background-color: #a9b5aa/*#818b82/*#D4C4B3*/;
     border-color: #818b82 /*#a9b5aa*/;
@@ -453,9 +454,8 @@ textarea {
 }
 
 .tabelltjanster{
-    border: 20px solid;
-    border-radius: 5px;
-    border-color: aqua;
+    border:none;
+    background-color:/*#fdfcfb*/ #f0f0f0;
 }
 
 /*_____________________NYA BOXAR PÅ "startsida"________________________________________*/
@@ -483,13 +483,14 @@ textarea {
     margin-bottom: 50px;
     background-color:#dfdbd5;
     font-family: Mulish,sans-serif;
-    font-size:normal;
-    padding-top: 10px;
+    font-size:large;
+    padding-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
     color: #2b2020;
     /*border-radius: 10px; INNEBÄR RUNDADE KANTER*/
     border-color: #2b2020;
+    line-height: 1,3px;
 }
 
 
@@ -629,7 +630,8 @@ textarea {
     padding-right: 50px;
     padding-top: 30px;
     border-radius: 4px;
-    line-height: 1.5;
+    line-height: 1,3;
+    font-size: large;
 }
 
 /*______________FLEXBOXAR-KONTAKTA OSS, 3 kolumner__________________________________________________*/ 
@@ -669,7 +671,7 @@ textarea {
     padding-left: 40px;
     padding-right: 20px;
     padding-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 /*___________________OM OSS_____________________________________*/
 .flex-container-omoss{
@@ -776,19 +778,28 @@ textarea {
     margin-right: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
     font-size: larger;
     font-weight:normal;
     font-family:Mulish,sans-serif;
+    line-height: 24px;
 
+}
+
+.h3-content{
+    font-size:x-large;
+    text-align: center;
+    margin-right: 20px;
 }
 
 .c2a-content{
     text-decoration: solid;
     background-color: #7d8779;/*#bcb6b6;*/
-    color: #273223 /*#1e1d1d*/;
+    color: #0e120d /*#1e1d1d*/;
     border-style: solid;
-    border-color:#273223 /*#555*/; 
+    border-color:#000000 /*#555*/; 
     text-align: center;
     /*width: auto;
     height: 48px;*/
@@ -798,6 +809,7 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
+    margin-left: 45%;
     border-radius: 8px;
-
+    
 }
