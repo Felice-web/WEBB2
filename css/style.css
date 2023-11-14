@@ -356,10 +356,10 @@ a{
 
 /*våra tjänster c2a knapp*/
 .c2atjanster {
-    border-color:#818b82  /*#4C5351*/;
+    border-color:#d5bca1 /*#818b82*/  /*#4C5351*/;
     text-decoration: solid;
-    background-color:#a9b5aa/*#7d8a87*//*:#8ca294*/ /*rgb(176, 176, 175) */;
-    color: rgb(45, 48, 44);
+    background-color:#D4C4B3/*#a9b5aa*//*#7d8a87*//*:#8ca294*/ /*rgb(176, 176, 175) */;
+    color: #5c472e /*rgb(45, 48, 44)*/;
     border-style: solid;
     text-align: center;
     padding-left: 14px;/*20*/
@@ -371,17 +371,16 @@ a{
     margin-top: 50px;
 }
 
+
+
 .c2a-skicka {
-    /*border-style: solid; /*bolder
-    border-color:#1e1d1d;*/
-    /*width: 90px;
-    height: 50px;*/
+
     border-style:solid;
     border-radius: 8px;
     font-family:Mulish,sans-serif;
     font-size:normal;
-    font-weight: bold;
-    color: rgb(15, 15, 15);/*rgb(45, 48, 44);*/
+    font-weight:bold;
+    color: /*rgb(15, 15, 15);*/rgb(45, 48, 44);
     margin-top: 20px;
     background-color: #a9b5aa/*#818b82/*#D4C4B3*/;
     border-color: #818b82 /*#a9b5aa*/;
@@ -401,7 +400,7 @@ a{
     background-color: rgb(198, 208, 208);
 }
 
-/*-------------Längst ner---------------------------*/
+/*-------------Footer---------------------------*/
 .footer-flex{
     background-color: rgb(173, 163, 153);
     color: #2d2828;
@@ -800,7 +799,7 @@ textarea {
 .c2a-content{
     text-decoration: solid;
     background-color: #7d8779;/*#bcb6b6;*/
-    color: #0e120d /*#1e1d1d*/;
+    color: rgb(45, 48, 44)/*#1e1d1d*/;
     border-style: solid;
     border-color:#000000 /*#555*/; 
     text-align: center;
