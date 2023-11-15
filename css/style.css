@@ -276,9 +276,9 @@ a{
     padding-left: 350px;
 }
 
-/*H1or som är alla sidor förutom start*/
+/*H1or under menyn*/
 .h1-2 {
-    font-family:Mulish,sans-serif; /*Verdana, Geneva, Tahoma, sans-serif*//*Mulish,sans-serif;*/
+    font-family:Mulish,sans-serif ;/*Verdana, Geneva, Tahoma, sans-serif;*//*Mulish,sans-serif;*/
     font-weight: normal /*lighter;*/;
     font-style:initial;
     font-size: 42px /*ev xx large*/;
@@ -325,7 +325,7 @@ a{
     color: #2b2020;
 }
 
-.h3-box{                             /*---------FIX EFTER REDOVISNINGEN-se anteckningar!!!!---------*/
+.h3-box{                             
     font-size: large /*normal*/;
     font-family: Mulish,sans-serif;
     padding-top: 20px/*10*/px;
@@ -339,16 +339,16 @@ a{
     text-decoration: solid;
     background-color: #D4C4B3;/*#bcb6b6;*/
     color: #5c472e /*#1e1d1d*/;
-    border-style: solid;
-    border-color:#d5bca1 /*#555*/; 
+    border-style:solid;
+    border-color: #d5bca1 /*#555*/; 
     text-align: center;
     /*width: auto;
     height: 48px;*/
     font-weight:normal;/*bold*/
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
     margin-top: 20px;
     border-radius: 8px;
     
