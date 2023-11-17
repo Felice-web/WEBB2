@@ -10,7 +10,7 @@ function buildMenu()
         ["Inredningstjänster", "varatjanster.html"],
         ["Boka tid", "bokatid.html"], 
         ["Tidigare projekt", "tidigareprojekt.html"],
-        ["Kontakta oss", "kontaktaoss.html"],   
+        ["Kontakt", "kontaktaoss.html"],   
         ["Om oss", "omoss.html"]
     
     
