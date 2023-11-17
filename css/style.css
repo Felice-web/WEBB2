@@ -1,4 +1,4 @@
-/* = Innebär att när man hovrar över länken så blir den understryken. Kan även lägga på en färg*/ 
+
 a:hover {
     text-decoration: underline;
     color: rgb(6, 5, 5);
@@ -8,7 +8,6 @@ a:hover {
 Body {
     background-color:#f8f2f2;/* alternativt helt vitt*/
     font-family: Mulish,sans-serif;
-    /*padding: 20px;*/
     margin: 0px;   
 }
 
@@ -48,13 +47,7 @@ h4{
     padding-top: 5px;
 }
 
-/*text under h1 större*/
-.textbigger {
-    font-size: large;
-    font-family: Mulish,sans-serif;
-    display:flex;
-    margin:20px;
-}
+
 
 .margin {
     margin:20px;
@@ -142,11 +135,7 @@ h4{
     line-height: 1.5;
 }
 
-/*avstånd från h1*/
-.sectionmargin {
-    margin-top: 50px;
-    margin:20px;
-}
+
 
 a{
     text-decoration: none;
@@ -154,9 +143,7 @@ a{
     /*border-style: solid;*/
     /*border-color: rgb(223, 232, 232);*/
     border-width: 1px;
-    /*background-color:rgb(176, 176, 175) ;*/
-    margin: 0;
-    padding: 0;
+    
 }
 
 /*___________MENY_________________*/
@@ -191,8 +178,6 @@ a{
     flex:wrap;
     flex-basis: 50vw;
     flex-grow:1;
-    /*width: ;
-    height: ;*/
     font-family: Mulish,sans-serif;
     /*margin:20px;*/
     padding-top:100px;
@@ -219,7 +204,7 @@ a{
     font-weight:bold;
 }
 
-/*block med h1 + introtext-ingressen*/
+
 .flex-container-2 {
     /*flex-direction:row;*/
     display: flex;
@@ -291,7 +276,7 @@ a{
     margin-right: auto;
 }
 
-/*Text under h1 som ligger i block "flex-container-2". Alltså p-text till den korllfärgade boxen i headern*/
+/*Text under h1 som ligger i block "flex-container-2". Alltså p-text till den korllfärgade boxen i headern
 .text-till-h1 {
     margin-left: 20px;
     margin-right: 20px;
@@ -301,7 +286,7 @@ a{
     font-size:larger;
     border: inline;
 }
-
+*/
 
 
 .h3-box{                             
@@ -468,7 +453,7 @@ textarea {
     padding-left: 30px;
     padding-right: 30px;
     color: #2b2020;
-    /*border-radius: 10px; INNEBÄR RUNDADE KANTER*/
+    /*border-radius: 10px;*/
     border-color: #2b2020;
     line-height: 1,3px;
 }
