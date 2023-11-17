@@ -302,28 +302,7 @@ a{
     border: inline;
 }
 
-/*designen i flexboxen*/
-.item-left {
-    flex-grow: 3;
-    text-align: center;
-    background-color:#dfdbd5; /*#f8f5f0;*/
-    margin: 2px;
-    font-family: Mulish,sans-serif;
-    /*padding:10px;*/
-    /*color: #000;*/
-    /*line-height: 26px;*/
-}
 
-.item-right{
-    flex-grow: 3;
-    text-align: center;
-    background-color:#dfdbd5; /*#f8f5f0;*/
-    margin: 2px;
-    font-family: Mulish,sans-serif;
-    font-size:large;
-    padding:10px;
-    color: #2b2020;
-}
 
 .h3-box{                             
     font-size: large /*normal*/;
@@ -456,7 +435,7 @@ textarea {
 
 .tabelltjanster{
     border:none;
-    background-color:/*#fdfcfb*/ #f0f0f0;
+    background-color:/*#fdfcfb*//* #f0f0f0*/#fdfdfd;
 }
 
 /*_____________________NYA BOXAR PÅ "startsida"________________________________________*/
